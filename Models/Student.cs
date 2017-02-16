@@ -12,5 +12,6 @@ namespace SchoolAPI.Models
         public string LastName { get; set; }
         public string Major { get; set; }
         public DateTime DateOfBirth { get; set; }
+
     }
 }

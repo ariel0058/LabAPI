@@ -6,7 +6,7 @@ using System.Web;
 
 namespace SchoolAPI.Models
 {
-    public class SchoolContext : System.Data.Entity.DbContext
+    public class SchoolContext : DbContext
     {
         public SchoolContext() : base("DefaultConnection") { }
         public DbSet<Student> Students { get; set; }
